@@ -6,10 +6,10 @@
 //  Copyright (c) 2012 Jackson Harper. All rights reserved.
 //
 
-#import "Empty.h"
+#import "AnEmpty.h"
 #import "BlockOperation.h"
 
-@implementation Empty
+@implementation AnEmpty
 
 + (NSObject<OperationProtocol> *) array
 {

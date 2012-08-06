@@ -22,7 +22,7 @@
 		7A5B50E315CF42CD009C1B66 /* NumberComparisonOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5B50E215CF42CD009C1B66 /* NumberComparisonOperation.m */; };
 		7A5B50E615CF474E009C1B66 /* Greater.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5B50E515CF474E009C1B66 /* Greater.m */; };
 		7A5B50E915CF48C0009C1B66 /* Between.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5B50E815CF48C0009C1B66 /* Between.m */; };
-		7A5B50EF15CF560F009C1B66 /* Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5B50EE15CF560F009C1B66 /* Empty.m */; };
+		7A5B50EF15CF560F009C1B66 /* AnEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5B50EE15CF560F009C1B66 /* AnEmpty.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,8 +75,8 @@
 		7A5B50E515CF474E009C1B66 /* Greater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Greater.m; sourceTree = "<group>"; };
 		7A5B50E715CF48C0009C1B66 /* Between.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Between.h; sourceTree = "<group>"; };
 		7A5B50E815CF48C0009C1B66 /* Between.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Between.m; sourceTree = "<group>"; };
-		7A5B50ED15CF560F009C1B66 /* Empty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Empty.h; sourceTree = "<group>"; };
-		7A5B50EE15CF560F009C1B66 /* Empty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Empty.m; sourceTree = "<group>"; };
+		7A5B50ED15CF560F009C1B66 /* AnEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnEmpty.h; sourceTree = "<group>"; };
+		7A5B50EE15CF560F009C1B66 /* AnEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnEmpty.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,8 +182,8 @@
 				7A5B50E515CF474E009C1B66 /* Greater.m */,
 				7A5B50E715CF48C0009C1B66 /* Between.h */,
 				7A5B50E815CF48C0009C1B66 /* Between.m */,
-				7A5B50ED15CF560F009C1B66 /* Empty.h */,
-				7A5B50EE15CF560F009C1B66 /* Empty.m */,
+				7A5B50ED15CF560F009C1B66 /* AnEmpty.h */,
+				7A5B50EE15CF560F009C1B66 /* AnEmpty.m */,
 				7A5B50E115CF42CD009C1B66 /* NumberComparisonOperation.h */,
 				7A5B50E215CF42CD009C1B66 /* NumberComparisonOperation.m */,
 				7A5B50D315CF3CDF009C1B66 /* BlockOperation.h */,
@@ -297,7 +297,7 @@
 				7A5B50E315CF42CD009C1B66 /* NumberComparisonOperation.m in Sources */,
 				7A5B50E615CF474E009C1B66 /* Greater.m in Sources */,
 				7A5B50E915CF48C0009C1B66 /* Between.m in Sources */,
-				7A5B50EF15CF560F009C1B66 /* Empty.m in Sources */,
+				7A5B50EF15CF560F009C1B66 /* AnEmpty.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +450,7 @@
 				7A5B50CF15CF3B53009C1B66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A5B50D015CF3B53009C1B66 /* Build configuration list for PBXNativeTarget "NSUnitTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +459,7 @@
 				7A5B50D215CF3B53009C1B66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

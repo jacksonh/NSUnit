@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "OperationProtocol.h"
 
-@interface Empty : NSObject
+@interface AnEmpty : NSObject
 
 + (NSObject<OperationProtocol> *) array;
 + (NSObject<OperationProtocol> *) string;

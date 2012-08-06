@@ -130,27 +130,27 @@
 {
     NSArray *the_array = [NSArray array];
     
-    [Assert that:the_array is:[Empty array]];
+    [Assert that:the_array is:[AnEmpty array]];
 }
 
 - (void) test_AssertThatIsNotEmptyArray_ArrayThatIsNotEmpty_doesNotFail
 {
     NSArray *the_array = [NSArray arrayWithObject:@"an_object"];
     
-    [Assert that:the_array isNot:[Empty array]];
+    [Assert that:the_array isNot:[AnEmpty array]];
 }
 
 - (void) test_AssertThatIsEmptyString_StringThatIsEmpty_doesNotFail
 {
     NSString *the_string = @"";
     
-    [Assert that:the_string is:[Empty string]];
+    [Assert that:the_string is:[AnEmpty string]];
 }
 
 - (void) test_AssertThatIsNotEmptyString_StringThatIsNotEmpty_doesNotFail
 {
     NSString *the_string = @"not_empty";
     
-    [Assert that:the_string isNot:[Empty string]];
+    [Assert that:the_string isNot:[AnEmpty string]];
 }
 @end
