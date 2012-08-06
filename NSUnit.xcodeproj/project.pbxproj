@@ -23,6 +23,13 @@
 		7AFAEF0815D0045800E62D08 /* Greater.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFAEEFB15D0045800E62D08 /* Greater.m */; };
 		7AFAEF0915D0045800E62D08 /* Less.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFAEEFD15D0045800E62D08 /* Less.m */; };
 		7AFAEF0A15D0045800E62D08 /* NumberComparisonOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFAEF0015D0045800E62D08 /* NumberComparisonOperation.m */; };
+		7AFAEF0C15D0052100E62D08 /* AnEmpty.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AFAEEF015D0045800E62D08 /* AnEmpty.h */; };
+		7AFAEF0D15D0052100E62D08 /* Assert.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AFAEEF215D0045800E62D08 /* Assert.h */; };
+		7AFAEF0E15D0052100E62D08 /* Between.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AFAEEF415D0045800E62D08 /* Between.h */; };
+		7AFAEF0F15D0052100E62D08 /* BlockOperation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AFAEEF615D0045800E62D08 /* BlockOperation.h */; };
+		7AFAEF1015D0052100E62D08 /* Equal.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AFAEEF815D0045800E62D08 /* Equal.h */; };
+		7AFAEF1115D0052100E62D08 /* Greater.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AFAEEFA15D0045800E62D08 /* Greater.h */; };
+		7AFAEF1215D0052100E62D08 /* Less.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AFAEEFC15D0045800E62D08 /* Less.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +49,13 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
+				7AFAEF0C15D0052100E62D08 /* AnEmpty.h in CopyFiles */,
+				7AFAEF0D15D0052100E62D08 /* Assert.h in CopyFiles */,
+				7AFAEF0E15D0052100E62D08 /* Between.h in CopyFiles */,
+				7AFAEF0F15D0052100E62D08 /* BlockOperation.h in CopyFiles */,
+				7AFAEF1015D0052100E62D08 /* Equal.h in CopyFiles */,
+				7AFAEF1115D0052100E62D08 /* Greater.h in CopyFiles */,
+				7AFAEF1215D0052100E62D08 /* Less.h in CopyFiles */,
 				7AFAEECA15D003DC00E62D08 /* NSUnit.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
