@@ -31,18 +31,18 @@
     [Assert that:@"_the_string_" isNot:[Equal to:@"_not_the_string_"]];
 }
 
-- (void) test_AssertThatIsAll_ArrayWithMultipleElementsThatMatchRValue_doesNotFail
+- (void) test_AssertThatAreAll_ArrayWithMultipleElementsThatMatchRValue_doesNotFail
 {
     NSArray *the_array = [NSArray arrayWithObjects:@"one", @"one", @"one", @"one", nil];
     
-    [Assert that:the_array isAll:[Equal to:@"one"]];
+    [Assert that:the_array areAll:[Equal to:@"one"]];
 }
 
-- (void) test_AssertThatIsAll_SetWithMultipleElementsThatMatchRValue_doesNotFail
+- (void) test_AssertThatAreAll_SetWithMultipleElementsThatMatchRValue_doesNotFail
 {
     NSSet *the_set = [NSSet setWithObjects:@"one", @"one", @"one", @"one", nil];
     
-    [Assert that:the_set isAll:[Equal to:@"one"]];
+    [Assert that:the_set areAll:[Equal to:@"one"]];
 }
 
 - (void) test_AssertThatIsNil_OnNilObject_doesNotFail

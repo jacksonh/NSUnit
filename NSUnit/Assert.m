@@ -48,7 +48,7 @@
         [NSException raise:@"NSUnitException" format:@"Operation did not fail."];
 }
 
-+ (void) that:(NSObject<NSFastEnumeration> *) collection isAll:(NSObject<OperationProtocol> *) operation
++ (void) that:(NSObject<NSFastEnumeration> *) collection areAll:(NSObject<OperationProtocol> *) operation
 {
     int index = 0;
     NSMutableArray *failures = nil;

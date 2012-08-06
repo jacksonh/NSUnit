@@ -31,7 +31,7 @@
 + (void) that:(NSObject *) lvalue is:(NSObject<OperationProtocol> *) op;
 + (void) that:(NSObject *) lvalue isNot:(NSObject<OperationProtocol> *) op;
 
-+ (void) that:(NSObject<NSFastEnumeration> *) collection isAll:(NSObject<OperationProtocol> *) op;
++ (void) that:(NSObject<NSFastEnumeration> *) collection areAll:(NSObject<OperationProtocol> *) op;
 
 @end
 
