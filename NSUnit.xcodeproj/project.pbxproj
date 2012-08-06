@@ -184,10 +184,10 @@
 				7A5B50E815CF48C0009C1B66 /* Between.m */,
 				7A5B50ED15CF560F009C1B66 /* AnEmpty.h */,
 				7A5B50EE15CF560F009C1B66 /* AnEmpty.m */,
-				7A5B50E115CF42CD009C1B66 /* NumberComparisonOperation.h */,
-				7A5B50E215CF42CD009C1B66 /* NumberComparisonOperation.m */,
 				7A5B50D315CF3CDF009C1B66 /* BlockOperation.h */,
 				7A5B50D415CF3CDF009C1B66 /* BlockOperation.m */,
+				7A5B50E115CF42CD009C1B66 /* NumberComparisonOperation.h */,
+				7A5B50E215CF42CD009C1B66 /* NumberComparisonOperation.m */,
 			);
 			name = Operations;
 			sourceTree = "<group>";
