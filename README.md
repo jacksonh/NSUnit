@@ -23,9 +23,12 @@ Verbs
 The following verbs are available:
 
 __is__ - The condition evaluates to true:   [Assert that:something is:[Equal to:something_else]];
+
 __isNot__ - The condition evaluates to false:   [Assert that:something isNot:[Equal to:something_else]];
+
 __areAll__ - Each value in the provided collection evaluates to true:   [Assert that:some_array_of_numbers areAll:[Less than:30]];
-   
+
+
 Conditions
 ----------
 
