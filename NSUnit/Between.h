@@ -16,6 +16,6 @@
 
 }
 
-+ (NSObject<OperationProtocol> *) low:(NSNumber *) l high:(NSNumber *) high;
++ (NSObject<OperationProtocol> *) low:(NSNumber *) l and:(NSNumber *) high;
 
 @end

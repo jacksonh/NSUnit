@@ -12,7 +12,7 @@
 
 @implementation Between
 
-+ (NSObject<OperationProtocol> *) low:(NSNumber *) low high:(NSNumber *) high;
++ (NSObject<OperationProtocol> *) low:(NSNumber *) low and:(NSNumber *) high;
 {
     BlockOperation *res = [[BlockOperation alloc] initWithRValue:nil andBlock:^(NSObject *l, NSObject *r) {
         if (l == nil)

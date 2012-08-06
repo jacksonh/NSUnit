@@ -106,7 +106,7 @@
 {
     NSNumber *the_num = @10;
     
-    [Assert that:the_num is:[Between low:@10 high:@20]];
+    [Assert that:the_num is:[Between low:@10 and:@20]];
     
 }
 
@@ -114,7 +114,7 @@
 {
     NSNumber *the_num = @15;
     
-    [Assert that:the_num is:[Between low:@10 high:@20]];
+    [Assert that:the_num is:[Between low:@10 and:@20]];
     
 }
 
@@ -122,7 +122,7 @@
 {
     NSNumber *the_num = @20;
     
-    [Assert that:the_num is:[Between low:@10 high:@20]];
+    [Assert that:the_num is:[Between low:@10 and:@20]];
     
 }
 
