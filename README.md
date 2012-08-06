@@ -22,11 +22,9 @@ Verbs
 
 The following verbs are available:
 
-__is__ - The condition evaluates to true.
-
-__isNot__ - The condition evaluates to false.
-
-__areAll__ - Each value in the provided collection evaluates to true.
+    is - The condition evaluates to true.
+    isNot - The condition evaluates to false.
+    areAll - Each value in the provided collection evaluates to true.
 
 Conditions
 ----------
