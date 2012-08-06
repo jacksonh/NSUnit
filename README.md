@@ -1,4 +1,4 @@
 NSUnit
 ======
 
-Unit Objective-C testing framework
+Objective-C Unit testing framework
