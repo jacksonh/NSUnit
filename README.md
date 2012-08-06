@@ -43,4 +43,5 @@ The following conditions are available:
     
     AnEmpty array: - The subject is an empty array.
     AnEmpty string: - The subject is an empty string.
-    
+ 
+More examples can be found in NSUnit's [unit tests](https://github.com/jacksonh/NSUnit/blob/master/NSUnitTests/NSUnitTests.m).
