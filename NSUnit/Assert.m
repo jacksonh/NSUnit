@@ -3,7 +3,8 @@
 //  NSUnit.m
 //  NSUnit
 //
-// Copyright (C) 2012 Jackson Harper
+//  Copyright (C) 2012 Jackson Harper
+//  Copyright (c) 2012 Benjamin van der Veen. All rights reserved
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy of this software
 // and associated documentation files (the "Software"), to deal in the Software without restriction,
