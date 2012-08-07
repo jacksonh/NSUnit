@@ -15,6 +15,7 @@ Some examples:
      [Assert that:name isNot:[AnEmpty string]];
      [Assert that:name isNot:[Equal to:@"Omar"]];
      [Assert that:name is:[Equal to:"McNulty"]];
+     [Assert that:someArrayOfInts areAll:[Less than:20]];
 
 
 Verbs
