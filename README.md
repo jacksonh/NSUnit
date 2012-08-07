@@ -6,7 +6,7 @@ NSUnit is a unit testing framework for Objective-C projects. NSUnit builds on to
 The Assert Class
 ----------------
 
-The Assert class is the main test entry point to NSUnit. Tests are generall in the form:
+The Assert class is the main test entry point to NSUnit. Tests are generally in the form:
 
      [Assert that:<subject> <verb>:<condition>]
    
