@@ -45,3 +45,9 @@ The following conditions are available:
     AnEmpty string: - The subject is an empty string.
  
 More examples can be found in NSUnit's [unit tests](https://github.com/jacksonh/NSUnit/blob/master/NSUnitTests/NSUnitTests.m).
+
+
+Building
+--------
+
+NSUnit is built using the [iOS Univeral Framework](https://github.com/kstenerud/iOS-Universal-Framework)
