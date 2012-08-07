@@ -74,4 +74,19 @@
     }
 }
 
++ (void) thatInt:(int) lvalue is:(NSObject<OperationProtocol> *) op
+{
+    NSNumber *number = [NSNumber numberWithInt:lvalue];
+    
+    [self that:number is:op];
+}
+
++ (void) thatInt:(int) lvalue isNot:(NSObject<OperationProtocol> *) op
+{
+    NSNumber *number = [NSNumber numberWithInt:lvalue];
+    
+    [self that:number isNot:op];
+}
+
+
 @end

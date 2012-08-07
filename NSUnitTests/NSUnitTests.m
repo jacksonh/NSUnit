@@ -153,4 +153,18 @@
     
     [Assert that:the_string isNot:[AnEmpty string]];
 }
+
+- (void) test_AssertThatIntIs_IntsThatAreTheSame_doesNotFail
+{
+    int the_int = 10;
+    
+    [Assert thatInt:the_int is:[Equal to:@10]];
+}
+
+- (void) test_AssertThatIntIsNot_IntsThatAreNotTheSame_doesNotFail
+{
+    int the_int = 99;
+    
+    [Assert thatInt:the_int isNot:[Equal to:@10]];
+}
 @end
