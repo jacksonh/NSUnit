@@ -15,24 +15,24 @@
 		7A249D1915D153C900DD1780 /* NSUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A249CFE15D153C900DD1780 /* NSUnit.framework */; };
 		7A249D1A15D153C900DD1780 /* NSUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A249CFE15D153C900DD1780 /* NSUnit.framework */; };
 		7A249D2015D153C900DD1780 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A249D1E15D153C900DD1780 /* InfoPlist.strings */; };
-		7A249D5C15D1552500DD1780 /* AnEmpty.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A249D5415D1552500DD1780 /* AnEmpty.h */; };
+		7A249D5C15D1552500DD1780 /* AnEmpty.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A249D5415D1552500DD1780 /* AnEmpty.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A249D5D15D1552500DD1780 /* AnEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A249D5515D1552500DD1780 /* AnEmpty.m */; };
-		7A249D5E15D1552500DD1780 /* Assert.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A249D5615D1552500DD1780 /* Assert.h */; };
+		7A249D5E15D1552500DD1780 /* Assert.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A249D5615D1552500DD1780 /* Assert.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A249D5F15D1552500DD1780 /* Assert.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A249D5715D1552500DD1780 /* Assert.m */; };
-		7A249D6015D1552500DD1780 /* Between.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A249D5815D1552500DD1780 /* Between.h */; };
+		7A249D6015D1552500DD1780 /* Between.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A249D5815D1552500DD1780 /* Between.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A249D6115D1552500DD1780 /* Between.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A249D5915D1552500DD1780 /* Between.m */; };
-		7A249D6215D1552500DD1780 /* BlockOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A249D5A15D1552500DD1780 /* BlockOperation.h */; };
+		7A249D6215D1552500DD1780 /* BlockOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A249D5A15D1552500DD1780 /* BlockOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A249D6315D1552500DD1780 /* BlockOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A249D5B15D1552500DD1780 /* BlockOperation.m */; };
-		7A249D6A15D1554800DD1780 /* Equal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A249D6415D1554800DD1780 /* Equal.h */; };
+		7A249D6A15D1554800DD1780 /* Equal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A249D6415D1554800DD1780 /* Equal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A249D6B15D1554800DD1780 /* Equal.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A249D6515D1554800DD1780 /* Equal.m */; };
-		7A249D6C15D1554800DD1780 /* Greater.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A249D6615D1554800DD1780 /* Greater.h */; };
+		7A249D6C15D1554800DD1780 /* Greater.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A249D6615D1554800DD1780 /* Greater.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A249D6D15D1554800DD1780 /* Greater.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A249D6715D1554800DD1780 /* Greater.m */; };
-		7A249D6E15D1554800DD1780 /* Less.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A249D6815D1554800DD1780 /* Less.h */; };
+		7A249D6E15D1554800DD1780 /* Less.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A249D6815D1554800DD1780 /* Less.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A249D6F15D1554800DD1780 /* Less.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A249D6915D1554800DD1780 /* Less.m */; };
-		7A249D7315D1555B00DD1780 /* NumberComparisonOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A249D7015D1555B00DD1780 /* NumberComparisonOperation.h */; };
+		7A249D7315D1555B00DD1780 /* NumberComparisonOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A249D7015D1555B00DD1780 /* NumberComparisonOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A249D7415D1555B00DD1780 /* NumberComparisonOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A249D7115D1555B00DD1780 /* NumberComparisonOperation.m */; };
-		7A249D7515D1555B00DD1780 /* OperationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A249D7215D1555B00DD1780 /* OperationProtocol.h */; };
-		7A249D7715D1556A00DD1780 /* NSUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A249D7615D1556A00DD1780 /* NSUnit.h */; };
+		7A249D7515D1555B00DD1780 /* OperationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A249D7215D1555B00DD1780 /* OperationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A249D7715D1556A00DD1780 /* NSUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A249D7615D1556A00DD1780 /* NSUnit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A249D7A15D1560800DD1780 /* NSUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A249D7915D1560800DD1780 /* NSUnitTests.m */; };
 /* End PBXBuildFile section */
 
@@ -211,14 +211,14 @@
 			files = (
 				7A249D5C15D1552500DD1780 /* AnEmpty.h in Headers */,
 				7A249D5E15D1552500DD1780 /* Assert.h in Headers */,
-				7A249D6015D1552500DD1780 /* Between.h in Headers */,
-				7A249D6215D1552500DD1780 /* BlockOperation.h in Headers */,
 				7A249D6A15D1554800DD1780 /* Equal.h in Headers */,
 				7A249D6C15D1554800DD1780 /* Greater.h in Headers */,
 				7A249D6E15D1554800DD1780 /* Less.h in Headers */,
+				7A249D6015D1552500DD1780 /* Between.h in Headers */,
+				7A249D7715D1556A00DD1780 /* NSUnit.h in Headers */,
+				7A249D6215D1552500DD1780 /* BlockOperation.h in Headers */,
 				7A249D7315D1555B00DD1780 /* NumberComparisonOperation.h in Headers */,
 				7A249D7515D1555B00DD1780 /* OperationProtocol.h in Headers */,
-				7A249D7715D1556A00DD1780 /* NSUnit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
