@@ -8,7 +8,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "OperationProtocol.h"
+
+@protocol OperationProtocol;
+
 
 @interface Less : NSObject
 

@@ -10,6 +10,7 @@
 #import <Foundation/Foundation.h>
 #import "OperationProtocol.h"
 
+
 typedef void (^NSObjectBlockOperationProtocol)(NSObject *lvalue, NSObject *rvalue);
 
 @interface BlockOperation : NSObject<OperationProtocol> {
