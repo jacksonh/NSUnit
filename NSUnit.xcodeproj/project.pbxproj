@@ -7,209 +7,235 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7AFAEEC515D003DC00E62D08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AFAEEC415D003DC00E62D08 /* Foundation.framework */; };
-		7AFAEECA15D003DC00E62D08 /* NSUnit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AFAEEC915D003DC00E62D08 /* NSUnit.h */; };
-		7AFAEED415D003DD00E62D08 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AFAEED315D003DD00E62D08 /* SenTestingKit.framework */; };
-		7AFAEED615D003DD00E62D08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AFAEED515D003DD00E62D08 /* UIKit.framework */; };
-		7AFAEED715D003DD00E62D08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AFAEEC415D003DC00E62D08 /* Foundation.framework */; };
-		7AFAEEDA15D003DD00E62D08 /* libNSUnit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AFAEEC115D003DC00E62D08 /* libNSUnit.a */; };
-		7AFAEEE015D003DD00E62D08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7AFAEEDE15D003DD00E62D08 /* InfoPlist.strings */; };
-		7AFAEEE315D003DD00E62D08 /* NSUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFAEEE215D003DD00E62D08 /* NSUnitTests.m */; };
-		7AFAEF0315D0045800E62D08 /* AnEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFAEEF115D0045800E62D08 /* AnEmpty.m */; };
-		7AFAEF0415D0045800E62D08 /* Assert.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFAEEF315D0045800E62D08 /* Assert.m */; };
-		7AFAEF0515D0045800E62D08 /* Between.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFAEEF515D0045800E62D08 /* Between.m */; };
-		7AFAEF0615D0045800E62D08 /* BlockOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFAEEF715D0045800E62D08 /* BlockOperation.m */; };
-		7AFAEF0715D0045800E62D08 /* Equal.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFAEEF915D0045800E62D08 /* Equal.m */; };
-		7AFAEF0815D0045800E62D08 /* Greater.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFAEEFB15D0045800E62D08 /* Greater.m */; };
-		7AFAEF0915D0045800E62D08 /* Less.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFAEEFD15D0045800E62D08 /* Less.m */; };
-		7AFAEF0A15D0045800E62D08 /* NumberComparisonOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFAEF0015D0045800E62D08 /* NumberComparisonOperation.m */; };
-		7AFAEF0C15D0052100E62D08 /* AnEmpty.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AFAEEF015D0045800E62D08 /* AnEmpty.h */; };
-		7AFAEF0D15D0052100E62D08 /* Assert.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AFAEEF215D0045800E62D08 /* Assert.h */; };
-		7AFAEF0E15D0052100E62D08 /* Between.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AFAEEF415D0045800E62D08 /* Between.h */; };
-		7AFAEF0F15D0052100E62D08 /* BlockOperation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AFAEEF615D0045800E62D08 /* BlockOperation.h */; };
-		7AFAEF1015D0052100E62D08 /* Equal.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AFAEEF815D0045800E62D08 /* Equal.h */; };
-		7AFAEF1115D0052100E62D08 /* Greater.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AFAEEFA15D0045800E62D08 /* Greater.h */; };
-		7AFAEF1215D0052100E62D08 /* Less.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AFAEEFC15D0045800E62D08 /* Less.h */; };
+		7A249D0215D153C900DD1780 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A249D0115D153C900DD1780 /* Foundation.framework */; };
+		7A249D0815D153C900DD1780 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A249D0615D153C900DD1780 /* InfoPlist.strings */; };
+		7A249D1115D153C900DD1780 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A249D1015D153C900DD1780 /* SenTestingKit.framework */; };
+		7A249D1315D153C900DD1780 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A249D1215D153C900DD1780 /* UIKit.framework */; };
+		7A249D1415D153C900DD1780 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A249D0115D153C900DD1780 /* Foundation.framework */; };
+		7A249D1915D153C900DD1780 /* NSUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A249CFE15D153C900DD1780 /* NSUnit.framework */; };
+		7A249D1A15D153C900DD1780 /* NSUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A249CFE15D153C900DD1780 /* NSUnit.framework */; };
+		7A249D2015D153C900DD1780 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A249D1E15D153C900DD1780 /* InfoPlist.strings */; };
+		7A249D5C15D1552500DD1780 /* AnEmpty.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A249D5415D1552500DD1780 /* AnEmpty.h */; };
+		7A249D5D15D1552500DD1780 /* AnEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A249D5515D1552500DD1780 /* AnEmpty.m */; };
+		7A249D5E15D1552500DD1780 /* Assert.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A249D5615D1552500DD1780 /* Assert.h */; };
+		7A249D5F15D1552500DD1780 /* Assert.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A249D5715D1552500DD1780 /* Assert.m */; };
+		7A249D6015D1552500DD1780 /* Between.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A249D5815D1552500DD1780 /* Between.h */; };
+		7A249D6115D1552500DD1780 /* Between.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A249D5915D1552500DD1780 /* Between.m */; };
+		7A249D6215D1552500DD1780 /* BlockOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A249D5A15D1552500DD1780 /* BlockOperation.h */; };
+		7A249D6315D1552500DD1780 /* BlockOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A249D5B15D1552500DD1780 /* BlockOperation.m */; };
+		7A249D6A15D1554800DD1780 /* Equal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A249D6415D1554800DD1780 /* Equal.h */; };
+		7A249D6B15D1554800DD1780 /* Equal.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A249D6515D1554800DD1780 /* Equal.m */; };
+		7A249D6C15D1554800DD1780 /* Greater.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A249D6615D1554800DD1780 /* Greater.h */; };
+		7A249D6D15D1554800DD1780 /* Greater.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A249D6715D1554800DD1780 /* Greater.m */; };
+		7A249D6E15D1554800DD1780 /* Less.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A249D6815D1554800DD1780 /* Less.h */; };
+		7A249D6F15D1554800DD1780 /* Less.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A249D6915D1554800DD1780 /* Less.m */; };
+		7A249D7315D1555B00DD1780 /* NumberComparisonOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A249D7015D1555B00DD1780 /* NumberComparisonOperation.h */; };
+		7A249D7415D1555B00DD1780 /* NumberComparisonOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A249D7115D1555B00DD1780 /* NumberComparisonOperation.m */; };
+		7A249D7515D1555B00DD1780 /* OperationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A249D7215D1555B00DD1780 /* OperationProtocol.h */; };
+		7A249D7715D1556A00DD1780 /* NSUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A249D7615D1556A00DD1780 /* NSUnit.h */; };
+		7A249D7A15D1560800DD1780 /* NSUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A249D7915D1560800DD1780 /* NSUnitTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7AFAEED815D003DD00E62D08 /* PBXContainerItemProxy */ = {
+		7A249D1515D153C900DD1780 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7AFAEEB815D003DC00E62D08 /* Project object */;
+			containerPortal = 7A249CF115D153C900DD1780 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7AFAEEC015D003DC00E62D08;
+			remoteGlobalIDString = 7A249CFD15D153C900DD1780;
+			remoteInfo = NSUnit;
+		};
+		7A249D1715D153C900DD1780 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A249CF115D153C900DD1780 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A249CFD15D153C900DD1780;
 			remoteInfo = NSUnit;
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		7AFAEEBF15D003DC00E62D08 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/${PRODUCT_NAME}";
-			dstSubfolderSpec = 16;
-			files = (
-				7AFAEF0C15D0052100E62D08 /* AnEmpty.h in CopyFiles */,
-				7AFAEF0D15D0052100E62D08 /* Assert.h in CopyFiles */,
-				7AFAEF0E15D0052100E62D08 /* Between.h in CopyFiles */,
-				7AFAEF0F15D0052100E62D08 /* BlockOperation.h in CopyFiles */,
-				7AFAEF1015D0052100E62D08 /* Equal.h in CopyFiles */,
-				7AFAEF1115D0052100E62D08 /* Greater.h in CopyFiles */,
-				7AFAEF1215D0052100E62D08 /* Less.h in CopyFiles */,
-				7AFAEECA15D003DC00E62D08 /* NSUnit.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		7AFAEEC115D003DC00E62D08 /* libNSUnit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNSUnit.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		7AFAEEC415D003DC00E62D08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		7AFAEEC815D003DC00E62D08 /* NSUnit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSUnit-Prefix.pch"; sourceTree = "<group>"; };
-		7AFAEEC915D003DC00E62D08 /* NSUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSUnit.h; sourceTree = "<group>"; };
-		7AFAEED215D003DD00E62D08 /* NSUnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSUnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7AFAEED315D003DD00E62D08 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		7AFAEED515D003DD00E62D08 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		7AFAEEDD15D003DD00E62D08 /* NSUnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSUnitTests-Info.plist"; sourceTree = "<group>"; };
-		7AFAEEDF15D003DD00E62D08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7AFAEEE115D003DD00E62D08 /* NSUnitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSUnitTests.h; sourceTree = "<group>"; };
-		7AFAEEE215D003DD00E62D08 /* NSUnitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSUnitTests.m; sourceTree = "<group>"; };
-		7AFAEEF015D0045800E62D08 /* AnEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnEmpty.h; sourceTree = "<group>"; };
-		7AFAEEF115D0045800E62D08 /* AnEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnEmpty.m; sourceTree = "<group>"; };
-		7AFAEEF215D0045800E62D08 /* Assert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assert.h; sourceTree = "<group>"; };
-		7AFAEEF315D0045800E62D08 /* Assert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assert.m; sourceTree = "<group>"; };
-		7AFAEEF415D0045800E62D08 /* Between.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Between.h; sourceTree = "<group>"; };
-		7AFAEEF515D0045800E62D08 /* Between.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Between.m; sourceTree = "<group>"; };
-		7AFAEEF615D0045800E62D08 /* BlockOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockOperation.h; sourceTree = "<group>"; };
-		7AFAEEF715D0045800E62D08 /* BlockOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockOperation.m; sourceTree = "<group>"; };
-		7AFAEEF815D0045800E62D08 /* Equal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Equal.h; sourceTree = "<group>"; };
-		7AFAEEF915D0045800E62D08 /* Equal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Equal.m; sourceTree = "<group>"; };
-		7AFAEEFA15D0045800E62D08 /* Greater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Greater.h; sourceTree = "<group>"; };
-		7AFAEEFB15D0045800E62D08 /* Greater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Greater.m; sourceTree = "<group>"; };
-		7AFAEEFC15D0045800E62D08 /* Less.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Less.h; sourceTree = "<group>"; };
-		7AFAEEFD15D0045800E62D08 /* Less.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Less.m; sourceTree = "<group>"; };
-		7AFAEEFE15D0045800E62D08 /* NSUnit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NSUnit-Info.plist"; sourceTree = "<group>"; };
-		7AFAEEFF15D0045800E62D08 /* NumberComparisonOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberComparisonOperation.h; sourceTree = "<group>"; };
-		7AFAEF0015D0045800E62D08 /* NumberComparisonOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberComparisonOperation.m; sourceTree = "<group>"; };
-		7AFAEF0115D0045800E62D08 /* OperationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationProtocol.h; sourceTree = "<group>"; };
+		7A249CFE15D153C900DD1780 /* NSUnit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = NSUnit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A249D0115D153C900DD1780 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7A249D0515D153C900DD1780 /* NSUnit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSUnit-Info.plist"; sourceTree = "<group>"; };
+		7A249D0715D153C900DD1780 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7A249D0915D153C900DD1780 /* NSUnit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSUnit-Prefix.pch"; sourceTree = "<group>"; };
+		7A249D0F15D153C900DD1780 /* NSUnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSUnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A249D1015D153C900DD1780 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7A249D1215D153C900DD1780 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7A249D1D15D153C900DD1780 /* NSUnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSUnitTests-Info.plist"; sourceTree = "<group>"; };
+		7A249D1F15D153C900DD1780 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7A249D2115D153C900DD1780 /* NSUnitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSUnitTests.h; sourceTree = "<group>"; };
+		7A249D5415D1552500DD1780 /* AnEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnEmpty.h; sourceTree = "<group>"; };
+		7A249D5515D1552500DD1780 /* AnEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnEmpty.m; sourceTree = "<group>"; };
+		7A249D5615D1552500DD1780 /* Assert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assert.h; sourceTree = "<group>"; };
+		7A249D5715D1552500DD1780 /* Assert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assert.m; sourceTree = "<group>"; };
+		7A249D5815D1552500DD1780 /* Between.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Between.h; sourceTree = "<group>"; };
+		7A249D5915D1552500DD1780 /* Between.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Between.m; sourceTree = "<group>"; };
+		7A249D5A15D1552500DD1780 /* BlockOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockOperation.h; sourceTree = "<group>"; };
+		7A249D5B15D1552500DD1780 /* BlockOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockOperation.m; sourceTree = "<group>"; };
+		7A249D6415D1554800DD1780 /* Equal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Equal.h; sourceTree = "<group>"; };
+		7A249D6515D1554800DD1780 /* Equal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Equal.m; sourceTree = "<group>"; };
+		7A249D6615D1554800DD1780 /* Greater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Greater.h; sourceTree = "<group>"; };
+		7A249D6715D1554800DD1780 /* Greater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Greater.m; sourceTree = "<group>"; };
+		7A249D6815D1554800DD1780 /* Less.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Less.h; sourceTree = "<group>"; };
+		7A249D6915D1554800DD1780 /* Less.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Less.m; sourceTree = "<group>"; };
+		7A249D7015D1555B00DD1780 /* NumberComparisonOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberComparisonOperation.h; sourceTree = "<group>"; };
+		7A249D7115D1555B00DD1780 /* NumberComparisonOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberComparisonOperation.m; sourceTree = "<group>"; };
+		7A249D7215D1555B00DD1780 /* OperationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationProtocol.h; sourceTree = "<group>"; };
+		7A249D7615D1556A00DD1780 /* NSUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSUnit.h; sourceTree = "<group>"; };
+		7A249D7915D1560800DD1780 /* NSUnitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSUnitTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7AFAEEBE15D003DC00E62D08 /* Frameworks */ = {
+		7A249CF815D153C900DD1780 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AFAEEC515D003DC00E62D08 /* Foundation.framework in Frameworks */,
+				7A249D0215D153C900DD1780 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7AFAEECE15D003DC00E62D08 /* Frameworks */ = {
+		7A249D0B15D153C900DD1780 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AFAEED415D003DD00E62D08 /* SenTestingKit.framework in Frameworks */,
-				7AFAEED615D003DD00E62D08 /* UIKit.framework in Frameworks */,
-				7AFAEED715D003DD00E62D08 /* Foundation.framework in Frameworks */,
-				7AFAEEDA15D003DD00E62D08 /* libNSUnit.a in Frameworks */,
+				7A249D1115D153C900DD1780 /* SenTestingKit.framework in Frameworks */,
+				7A249D1315D153C900DD1780 /* UIKit.framework in Frameworks */,
+				7A249D1415D153C900DD1780 /* Foundation.framework in Frameworks */,
+				7A249D1915D153C900DD1780 /* NSUnit.framework in Frameworks */,
+				7A249D1A15D153C900DD1780 /* NSUnit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7AFAEEB615D003DC00E62D08 = {
+		7A249CEF15D153C900DD1780 = {
 			isa = PBXGroup;
 			children = (
-				7AFAEEC615D003DC00E62D08 /* NSUnit */,
-				7AFAEEDB15D003DD00E62D08 /* NSUnitTests */,
-				7AFAEEC315D003DC00E62D08 /* Frameworks */,
-				7AFAEEC215D003DC00E62D08 /* Products */,
+				7A249D0315D153C900DD1780 /* NSUnit */,
+				7A249D1B15D153C900DD1780 /* NSUnitTests */,
+				7A249D0015D153C900DD1780 /* Frameworks */,
+				7A249CFF15D153C900DD1780 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7AFAEEC215D003DC00E62D08 /* Products */ = {
+		7A249CFF15D153C900DD1780 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7AFAEEC115D003DC00E62D08 /* libNSUnit.a */,
-				7AFAEED215D003DD00E62D08 /* NSUnitTests.octest */,
+				7A249CFE15D153C900DD1780 /* NSUnit.framework */,
+				7A249D0F15D153C900DD1780 /* NSUnitTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7AFAEEC315D003DC00E62D08 /* Frameworks */ = {
+		7A249D0015D153C900DD1780 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7AFAEEC415D003DC00E62D08 /* Foundation.framework */,
-				7AFAEED315D003DD00E62D08 /* SenTestingKit.framework */,
-				7AFAEED515D003DD00E62D08 /* UIKit.framework */,
+				7A249D0115D153C900DD1780 /* Foundation.framework */,
+				7A249D1015D153C900DD1780 /* SenTestingKit.framework */,
+				7A249D1215D153C900DD1780 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7AFAEEC615D003DC00E62D08 /* NSUnit */ = {
+		7A249D0315D153C900DD1780 /* NSUnit */ = {
 			isa = PBXGroup;
 			children = (
-				7AFAEEF015D0045800E62D08 /* AnEmpty.h */,
-				7AFAEEF115D0045800E62D08 /* AnEmpty.m */,
-				7AFAEEF215D0045800E62D08 /* Assert.h */,
-				7AFAEEF315D0045800E62D08 /* Assert.m */,
-				7AFAEEF415D0045800E62D08 /* Between.h */,
-				7AFAEEF515D0045800E62D08 /* Between.m */,
-				7AFAEEF615D0045800E62D08 /* BlockOperation.h */,
-				7AFAEEF715D0045800E62D08 /* BlockOperation.m */,
-				7AFAEEF815D0045800E62D08 /* Equal.h */,
-				7AFAEEF915D0045800E62D08 /* Equal.m */,
-				7AFAEEFA15D0045800E62D08 /* Greater.h */,
-				7AFAEEFB15D0045800E62D08 /* Greater.m */,
-				7AFAEEFC15D0045800E62D08 /* Less.h */,
-				7AFAEEFD15D0045800E62D08 /* Less.m */,
-				7AFAEEFE15D0045800E62D08 /* NSUnit-Info.plist */,
-				7AFAEEFF15D0045800E62D08 /* NumberComparisonOperation.h */,
-				7AFAEF0015D0045800E62D08 /* NumberComparisonOperation.m */,
-				7AFAEF0115D0045800E62D08 /* OperationProtocol.h */,
-				7AFAEEC915D003DC00E62D08 /* NSUnit.h */,
-				7AFAEEC715D003DC00E62D08 /* Supporting Files */,
+				7A249D7815D1559C00DD1780 /* Conditionals */,
+				7A249D5615D1552500DD1780 /* Assert.h */,
+				7A249D5715D1552500DD1780 /* Assert.m */,
+				7A249D7615D1556A00DD1780 /* NSUnit.h */,
+				7A249D7215D1555B00DD1780 /* OperationProtocol.h */,
+				7A249D0415D153C900DD1780 /* Supporting Files */,
 			);
 			path = NSUnit;
 			sourceTree = "<group>";
 		};
-		7AFAEEC715D003DC00E62D08 /* Supporting Files */ = {
+		7A249D0415D153C900DD1780 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7AFAEEC815D003DC00E62D08 /* NSUnit-Prefix.pch */,
+				7A249D0515D153C900DD1780 /* NSUnit-Info.plist */,
+				7A249D0615D153C900DD1780 /* InfoPlist.strings */,
+				7A249D0915D153C900DD1780 /* NSUnit-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7AFAEEDB15D003DD00E62D08 /* NSUnitTests */ = {
+		7A249D1B15D153C900DD1780 /* NSUnitTests */ = {
 			isa = PBXGroup;
 			children = (
-				7AFAEEE115D003DD00E62D08 /* NSUnitTests.h */,
-				7AFAEEE215D003DD00E62D08 /* NSUnitTests.m */,
-				7AFAEEDC15D003DD00E62D08 /* Supporting Files */,
+				7A249D7915D1560800DD1780 /* NSUnitTests.m */,
+				7A249D2115D153C900DD1780 /* NSUnitTests.h */,
+				7A249D1C15D153C900DD1780 /* Supporting Files */,
 			);
 			path = NSUnitTests;
 			sourceTree = "<group>";
 		};
-		7AFAEEDC15D003DD00E62D08 /* Supporting Files */ = {
+		7A249D1C15D153C900DD1780 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7AFAEEDD15D003DD00E62D08 /* NSUnitTests-Info.plist */,
-				7AFAEEDE15D003DD00E62D08 /* InfoPlist.strings */,
+				7A249D1D15D153C900DD1780 /* NSUnitTests-Info.plist */,
+				7A249D1E15D153C900DD1780 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7A249D7815D1559C00DD1780 /* Conditionals */ = {
+			isa = PBXGroup;
+			children = (
+				7A249D5415D1552500DD1780 /* AnEmpty.h */,
+				7A249D5515D1552500DD1780 /* AnEmpty.m */,
+				7A249D5815D1552500DD1780 /* Between.h */,
+				7A249D5915D1552500DD1780 /* Between.m */,
+				7A249D6415D1554800DD1780 /* Equal.h */,
+				7A249D6515D1554800DD1780 /* Equal.m */,
+				7A249D6615D1554800DD1780 /* Greater.h */,
+				7A249D6715D1554800DD1780 /* Greater.m */,
+				7A249D6815D1554800DD1780 /* Less.h */,
+				7A249D6915D1554800DD1780 /* Less.m */,
+				7A249D5A15D1552500DD1780 /* BlockOperation.h */,
+				7A249D5B15D1552500DD1780 /* BlockOperation.m */,
+				7A249D7015D1555B00DD1780 /* NumberComparisonOperation.h */,
+				7A249D7115D1555B00DD1780 /* NumberComparisonOperation.m */,
+			);
+			name = Conditionals;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		7A249CF915D153C900DD1780 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A249D5C15D1552500DD1780 /* AnEmpty.h in Headers */,
+				7A249D5E15D1552500DD1780 /* Assert.h in Headers */,
+				7A249D6015D1552500DD1780 /* Between.h in Headers */,
+				7A249D6215D1552500DD1780 /* BlockOperation.h in Headers */,
+				7A249D6A15D1554800DD1780 /* Equal.h in Headers */,
+				7A249D6C15D1554800DD1780 /* Greater.h in Headers */,
+				7A249D6E15D1554800DD1780 /* Less.h in Headers */,
+				7A249D7315D1555B00DD1780 /* NumberComparisonOperation.h in Headers */,
+				7A249D7515D1555B00DD1780 /* OperationProtocol.h in Headers */,
+				7A249D7715D1556A00DD1780 /* NSUnit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		7AFAEEC015D003DC00E62D08 /* NSUnit */ = {
+		7A249CFD15D153C900DD1780 /* NSUnit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7AFAEEE615D003DD00E62D08 /* Build configuration list for PBXNativeTarget "NSUnit" */;
+			buildConfigurationList = 7A249D2615D153C900DD1780 /* Build configuration list for PBXNativeTarget "NSUnit" */;
 			buildPhases = (
-				7AFAEEBD15D003DC00E62D08 /* Sources */,
-				7AFAEEBE15D003DC00E62D08 /* Frameworks */,
-				7AFAEEBF15D003DC00E62D08 /* CopyFiles */,
+				7A249CF615D153C900DD1780 /* ShellScript */,
+				7A249CF715D153C900DD1780 /* Sources */,
+				7A249CF815D153C900DD1780 /* Frameworks */,
+				7A249CF915D153C900DD1780 /* Headers */,
+				7A249CFA15D153C900DD1780 /* Resources */,
+				7A249CFB15D153C900DD1780 /* ShellScript */,
+				7A249CFC15D153C900DD1780 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -217,68 +243,116 @@
 			);
 			name = NSUnit;
 			productName = NSUnit;
-			productReference = 7AFAEEC115D003DC00E62D08 /* libNSUnit.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 7A249CFE15D153C900DD1780 /* NSUnit.framework */;
+			productType = "com.apple.product-type.framework.static";
 		};
-		7AFAEED115D003DC00E62D08 /* NSUnitTests */ = {
+		7A249D0E15D153C900DD1780 /* NSUnitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7AFAEEE915D003DD00E62D08 /* Build configuration list for PBXNativeTarget "NSUnitTests" */;
+			buildConfigurationList = 7A249D2915D153C900DD1780 /* Build configuration list for PBXNativeTarget "NSUnitTests" */;
 			buildPhases = (
-				7AFAEECD15D003DC00E62D08 /* Sources */,
-				7AFAEECE15D003DC00E62D08 /* Frameworks */,
-				7AFAEECF15D003DC00E62D08 /* Resources */,
-				7AFAEED015D003DC00E62D08 /* ShellScript */,
+				7A249D0A15D153C900DD1780 /* Sources */,
+				7A249D0B15D153C900DD1780 /* Frameworks */,
+				7A249D0C15D153C900DD1780 /* Resources */,
+				7A249D0D15D153C900DD1780 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7AFAEED915D003DD00E62D08 /* PBXTargetDependency */,
+				7A249D1615D153C900DD1780 /* PBXTargetDependency */,
+				7A249D1815D153C900DD1780 /* PBXTargetDependency */,
 			);
 			name = NSUnitTests;
 			productName = NSUnitTests;
-			productReference = 7AFAEED215D003DD00E62D08 /* NSUnitTests.octest */;
+			productReference = 7A249D0F15D153C900DD1780 /* NSUnitTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7AFAEEB815D003DC00E62D08 /* Project object */ = {
+		7A249CF115D153C900DD1780 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0440;
 				ORGANIZATIONNAME = "Jackson Harper";
 			};
-			buildConfigurationList = 7AFAEEBB15D003DC00E62D08 /* Build configuration list for PBXProject "NSUnit" */;
+			buildConfigurationList = 7A249CF415D153C900DD1780 /* Build configuration list for PBXProject "NSUnit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7AFAEEB615D003DC00E62D08;
-			productRefGroup = 7AFAEEC215D003DC00E62D08 /* Products */;
+			mainGroup = 7A249CEF15D153C900DD1780;
+			productRefGroup = 7A249CFF15D153C900DD1780 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7AFAEEC015D003DC00E62D08 /* NSUnit */,
-				7AFAEED115D003DC00E62D08 /* NSUnitTests */,
+				7A249CFD15D153C900DD1780 /* NSUnit */,
+				7A249D0E15D153C900DD1780 /* NSUnitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7AFAEECF15D003DC00E62D08 /* Resources */ = {
+		7A249CFA15D153C900DD1780 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AFAEEE015D003DD00E62D08 /* InfoPlist.strings in Resources */,
+				7A249D0815D153C900DD1780 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A249D0C15D153C900DD1780 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A249D2015D153C900DD1780 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7AFAEED015D003DC00E62D08 /* ShellScript */ = {
+		7A249CF615D153C900DD1780 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n\tUFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version  from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\nONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM:-$ONLY_ACTIVE_ARCH}\n\n# Short-circuit if all binaries are up to date\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n  ([[ \"${ONLY_ACTIVE_PLATFORM}\" == \"YES\" ]] || \\\n    ([[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n     [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n     [[ ! \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\n    )\n  )\nthen\n    exit 0\nfi\n\n\n# Clean other platform if needed\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]]\nthen\n\techo \"Platform \\\"$UFW_SDK_PLATFORM\\\" was cleaned recently. Cleaning \\\"$UFW_OTHER_PLATFORM\\\" as well\"\n\techo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\n\txcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\nfi\n\n\n# Make sure we are building from fresh binaries\n\nrm -rf \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\n\nif [[ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]]\nthen\n    rm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n    rm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nfi\n";
+		};
+		7A249CFB15D153C900DD1780 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "HEADERS_ROOT=$SRCROOT/$PRODUCT_NAME\nFRAMEWORK_HEADERS_DIR=\"$BUILT_PRODUCTS_DIR/$WRAPPER_NAME/Versions/$FRAMEWORK_VERSION/Headers\"\n\n## only header files expected at this point\nPUBLIC_HEADERS=$(find $FRAMEWORK_HEADERS_DIR/. -not -type d 2> /dev/null | sed -e \"s@.*/@@g\")\n\nFIND_OPTS=\"\"\nfor PUBLIC_HEADER in $PUBLIC_HEADERS; do\n  if [ -n \"$FIND_OPTS\" ]; then\n    FIND_OPTS=\"$FIND_OPTS -o\"\n  fi\n  FIND_OPTS=\"$FIND_OPTS -name '$PUBLIC_HEADER'\"\ndone\n\nif [ -n \"$FIND_OPTS\" ]; then\n  for ORIG_HEADER in $(eval \"find $HEADERS_ROOT/. $FIND_OPTS\" 2> /dev/null | sed -e \"s@^$HEADERS_ROOT/./@@g\"); do\n    PUBLIC_HEADER=$(basename $ORIG_HEADER)\n    RELATIVE_PATH=$(dirname $ORIG_HEADER)\n    if [ -e $FRAMEWORK_HEADERS_DIR/$PUBLIC_HEADER ]; then\n      mkdir -p \"$FRAMEWORK_HEADERS_DIR/$RELATIVE_PATH\"\n      mv \"$FRAMEWORK_HEADERS_DIR/$PUBLIC_HEADER\" \"$FRAMEWORK_HEADERS_DIR/$RELATIVE_PATH/$PUBLIC_HEADER\"\n    fi\n  done\nfi\n";
+		};
+		7A249CFC15D153C900DD1780 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\nexport UFW_MASTER_SCRIPT_RUNNING=1\n\n\n# Functions\n\n## List files in the specified directory, storing to the specified array.\n#\n# @param $1 The path to list\n# @param $2 The name of the array to fill\n#\n##\nlist_files ()\n{\n    filelist=$(ls \"$1\")\n    while read line\n    do\n        eval \"$2[\\${#$2[*]}]=\\\"\\$line\\\"\"\n    done <<< \"$filelist\"\n}\n\n\n# Sanity check\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n    echo \"Framework target \\\"${TARGET_NAME}\\\" had no source files to build from. Make sure your source files have the correct target membership\"\n    exit 1\nfi\n\n\n# Gather information\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n    UFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\nONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM:-$ONLY_ACTIVE_ARCH}\n\n# Short-circuit if all binaries are up to date.\n# We already checked the other platform in the prerun script.\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\nif [ \"${ONLY_ACTIVE_PLATFORM}\" == \"YES\" ]\nthen\n    echo \"ONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM}: Skipping other platform build\"\nelse\n    # Make sure the other platform gets built\n    \n    echo \"Build other platform\"\n    \n    echo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n    xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n    \n    \n    # Build the fat static library binary\n    \n    echo \"Create universal static library\"\n    \n    echo \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \n    echo mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n    mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nfi\n\n# Build embedded framework structure\n\necho \"Build Embedded Framework\"\n\necho rm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\necho mkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\necho cp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\ncp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\n\ndeclare -a UFW_FILE_LIST\nlist_files \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\" UFW_FILE_LIST\nfor filename in \"${UFW_FILE_LIST[@]}\"\ndo\n    if [[ \"${filename}\" != \"Info.plist\" ]] && [[ ! \"${filename}\" =~ .*\\.lproj$ ]]\n    then\n        echo ln -sfh \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n        ln -sfh \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n    fi\ndone\n\n\nif [ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]\nthen\n    # Replace other platform's framework with a copy of this one (so that both have the same universal binary)\n    \n    echo \"Copy from $UFW_SDK_PLATFORM to $UFW_OTHER_PLATFORM\"\n    \n    echo rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    echo cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\nfi\n";
+		};
+		7A249D0D15D153C900DD1780 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -294,44 +368,57 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7AFAEEBD15D003DC00E62D08 /* Sources */ = {
+		7A249CF715D153C900DD1780 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AFAEF0315D0045800E62D08 /* AnEmpty.m in Sources */,
-				7AFAEF0415D0045800E62D08 /* Assert.m in Sources */,
-				7AFAEF0515D0045800E62D08 /* Between.m in Sources */,
-				7AFAEF0615D0045800E62D08 /* BlockOperation.m in Sources */,
-				7AFAEF0715D0045800E62D08 /* Equal.m in Sources */,
-				7AFAEF0815D0045800E62D08 /* Greater.m in Sources */,
-				7AFAEF0915D0045800E62D08 /* Less.m in Sources */,
-				7AFAEF0A15D0045800E62D08 /* NumberComparisonOperation.m in Sources */,
+				7A249D5D15D1552500DD1780 /* AnEmpty.m in Sources */,
+				7A249D5F15D1552500DD1780 /* Assert.m in Sources */,
+				7A249D6115D1552500DD1780 /* Between.m in Sources */,
+				7A249D6315D1552500DD1780 /* BlockOperation.m in Sources */,
+				7A249D6B15D1554800DD1780 /* Equal.m in Sources */,
+				7A249D6D15D1554800DD1780 /* Greater.m in Sources */,
+				7A249D6F15D1554800DD1780 /* Less.m in Sources */,
+				7A249D7415D1555B00DD1780 /* NumberComparisonOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7AFAEECD15D003DC00E62D08 /* Sources */ = {
+		7A249D0A15D153C900DD1780 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AFAEEE315D003DD00E62D08 /* NSUnitTests.m in Sources */,
+				7A249D7A15D1560800DD1780 /* NSUnitTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7AFAEED915D003DD00E62D08 /* PBXTargetDependency */ = {
+		7A249D1615D153C900DD1780 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7AFAEEC015D003DC00E62D08 /* NSUnit */;
-			targetProxy = 7AFAEED815D003DD00E62D08 /* PBXContainerItemProxy */;
+			target = 7A249CFD15D153C900DD1780 /* NSUnit */;
+			targetProxy = 7A249D1515D153C900DD1780 /* PBXContainerItemProxy */;
+		};
+		7A249D1815D153C900DD1780 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A249CFD15D153C900DD1780 /* NSUnit */;
+			targetProxy = 7A249D1715D153C900DD1780 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7AFAEEDE15D003DD00E62D08 /* InfoPlist.strings */ = {
+		7A249D0615D153C900DD1780 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7AFAEEDF15D003DD00E62D08 /* en */,
+				7A249D0715D153C900DD1780 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7A249D1E15D153C900DD1780 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A249D1F15D153C900DD1780 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -339,7 +426,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		7AFAEEE415D003DD00E62D08 /* Debug */ = {
+		7A249D2415D153C900DD1780 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -365,7 +452,7 @@
 			};
 			name = Debug;
 		};
-		7AFAEEE515D003DD00E62D08 /* Release */ = {
+		7A249D2515D153C900DD1780 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -385,31 +472,45 @@
 			};
 			name = Release;
 		};
-		7AFAEEE715D003DD00E62D08 /* Debug */ = {
+		7A249D2715D153C900DD1780 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DSTROOT = /tmp/NSUnit.dst;
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NSUnit/NSUnit-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				INFOPLIST_FILE = "NSUnit/NSUnit-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
 		};
-		7AFAEEE815D003DD00E62D08 /* Release */ = {
+		7A249D2815D153C900DD1780 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DSTROOT = /tmp/NSUnit.dst;
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NSUnit/NSUnit-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				INFOPLIST_FILE = "NSUnit/NSUnit-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
 		};
-		7AFAEEEA15D003DD00E62D08 /* Debug */ = {
+		7A249D2A15D153C900DD1780 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -424,7 +525,7 @@
 			};
 			name = Debug;
 		};
-		7AFAEEEB15D003DD00E62D08 /* Release */ = {
+		7A249D2B15D153C900DD1780 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -442,34 +543,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7AFAEEBB15D003DC00E62D08 /* Build configuration list for PBXProject "NSUnit" */ = {
+		7A249CF415D153C900DD1780 /* Build configuration list for PBXProject "NSUnit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7AFAEEE415D003DD00E62D08 /* Debug */,
-				7AFAEEE515D003DD00E62D08 /* Release */,
+				7A249D2415D153C900DD1780 /* Debug */,
+				7A249D2515D153C900DD1780 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7AFAEEE615D003DD00E62D08 /* Build configuration list for PBXNativeTarget "NSUnit" */ = {
+		7A249D2615D153C900DD1780 /* Build configuration list for PBXNativeTarget "NSUnit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7AFAEEE715D003DD00E62D08 /* Debug */,
-				7AFAEEE815D003DD00E62D08 /* Release */,
+				7A249D2715D153C900DD1780 /* Debug */,
+				7A249D2815D153C900DD1780 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		7AFAEEE915D003DD00E62D08 /* Build configuration list for PBXNativeTarget "NSUnitTests" */ = {
+		7A249D2915D153C900DD1780 /* Build configuration list for PBXNativeTarget "NSUnitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7AFAEEEA15D003DD00E62D08 /* Debug */,
-				7AFAEEEB15D003DD00E62D08 /* Release */,
+				7A249D2A15D153C900DD1780 /* Debug */,
+				7A249D2B15D153C900DD1780 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7AFAEEB815D003DC00E62D08 /* Project object */;
+	rootObject = 7A249CF115D153C900DD1780 /* Project object */;
 }
