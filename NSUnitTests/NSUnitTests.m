@@ -167,4 +167,18 @@
     
     [Assert thatInt:the_int isNot:[Equal to:@10]];
 }
+
+- (void) test_AssertThatTheIntIs_IntsThatAreTheSame_doesNotFail
+{
+    int i = 10;
+    
+    [Assert that:[The int:i] is:[Equal to:@10]];
+}
+
+- (void) test_AssertThatTheDoubleIs_DoublesThatAreTheSame_doesNotFail
+{
+    double d = 10.0;
+    
+    [Assert that:[The double:d] is:[Equal to:@10.0]];
+}
 @end

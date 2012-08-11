@@ -33,6 +33,8 @@
 		7A249D7515D1555B00DD1780 /* OperationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A249D7215D1555B00DD1780 /* OperationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A249D7715D1556A00DD1780 /* NSUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A249D7615D1556A00DD1780 /* NSUnit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A249D7A15D1560800DD1780 /* NSUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A249D7915D1560800DD1780 /* NSUnitTests.m */; };
+		7AB5030A15D6B7C200E71446 /* The.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AB5030815D6B7C200E71446 /* The.h */; };
+		7AB5030B15D6B7C200E71446 /* The.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB5030915D6B7C200E71446 /* The.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +84,8 @@
 		7A249D7215D1555B00DD1780 /* OperationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationProtocol.h; sourceTree = "<group>"; };
 		7A249D7615D1556A00DD1780 /* NSUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSUnit.h; sourceTree = "<group>"; };
 		7A249D7915D1560800DD1780 /* NSUnitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSUnitTests.m; sourceTree = "<group>"; };
+		7AB5030815D6B7C200E71446 /* The.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = The.h; sourceTree = "<group>"; };
+		7AB5030915D6B7C200E71446 /* The.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = The.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +149,8 @@
 				7A249D5615D1552500DD1780 /* NSUnit-Assert.h */,
 				7A249D5715D1552500DD1780 /* Assert.m */,
 				7A249D7215D1555B00DD1780 /* OperationProtocol.h */,
+				7AB5030815D6B7C200E71446 /* The.h */,
+				7AB5030915D6B7C200E71446 /* The.m */,
 				7A249D0415D153C900DD1780 /* Supporting Files */,
 			);
 			path = NSUnit;
@@ -216,6 +222,7 @@
 				7A249D6215D1552500DD1780 /* BlockOperation.h in Headers */,
 				7A249D7315D1555B00DD1780 /* NumberComparisonOperation.h in Headers */,
 				7A249D7515D1555B00DD1780 /* OperationProtocol.h in Headers */,
+				7AB5030A15D6B7C200E71446 /* The.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +383,7 @@
 				7A249D6D15D1554800DD1780 /* Greater.m in Sources */,
 				7A249D6F15D1554800DD1780 /* Less.m in Sources */,
 				7A249D7415D1555B00DD1780 /* NumberComparisonOperation.m in Sources */,
+				7AB5030B15D6B7C200E71446 /* The.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
