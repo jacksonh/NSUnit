@@ -33,7 +33,7 @@
 		7A249D7515D1555B00DD1780 /* OperationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A249D7215D1555B00DD1780 /* OperationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A249D7715D1556A00DD1780 /* NSUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A249D7615D1556A00DD1780 /* NSUnit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A249D7A15D1560800DD1780 /* NSUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A249D7915D1560800DD1780 /* NSUnitTests.m */; };
-		7AB5030A15D6B7C200E71446 /* The.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AB5030815D6B7C200E71446 /* The.h */; };
+		7AB5030A15D6B7C200E71446 /* The.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AB5030815D6B7C200E71446 /* The.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7AB5030B15D6B7C200E71446 /* The.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB5030915D6B7C200E71446 /* The.m */; };
 /* End PBXBuildFile section */
 
