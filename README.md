@@ -17,6 +17,15 @@ Some examples:
      [Assert that:name is:[Equal to:"McNulty"]];
      [Assert that:someArrayOfInts areAll:[Less than:@20]];
 
+Handling primitives with the The article
+----------------------------------------
+Primitive types such as doubles and ints can be automatically converted to their appropriate NSObject type using the The article. 
+
+Some examples:
+
+     [Assert that:[The int:i] is:[Equal to:@25]];
+     [Assert that:[The double:d] is:[Less than:@10]];
+
 
 Verbs
 -----
