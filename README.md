@@ -35,6 +35,7 @@ The following verbs are available:
     is - The condition evaluates to true.
     isNot - The condition evaluates to false.
     areAll - Each value in the provided collection evaluates to true.
+    areAllNot - Each value in the provided collection evaluates to false.
 
 Conditions
 ----------
@@ -43,7 +44,7 @@ The following conditions are available:
 
     Equal to: - The subject equals the provided value.
 
-    TheSame as: - The subject is the exact same object as the provided value
+    TheSame as: - The subject is the exact same object as the provided value.
     
     Less than: - The subject is less than the provided value. Both values must be non-nil numbers.
     Less thanOrEqual: - The subject is less than or equal to the provided value. Both values must be non-nil numbers.

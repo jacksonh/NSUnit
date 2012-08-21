@@ -38,6 +38,7 @@
 + (void) thatInt:(int) lvalue isNot:(NSObject<OperationProtocol> *) op;
 
 + (void) that:(NSObject<NSFastEnumeration> *) collection areAll:(NSObject<OperationProtocol> *) op;
++ (void) that:(NSObject<NSFastEnumeration> *) collection areAllNot:(NSObject<OperationProtocol> *) op;
 
 @end
 

@@ -49,29 +49,45 @@
         [NSException raise:@"NSUnitException" format:@"Operation did not fail."];
 }
 
-+ (void) that:(NSObject<NSFastEnumeration> *) collection areAll:(NSObject<OperationProtocol> *) operation
++ (void) evaluateOp:(NSObject<OperationProtocol> *) operation
+  onAllInCollection:(NSObject<NSFastEnumeration> *) collection
+      expectFailure:(BOOL) expectFailure
 {
     int index = 0;
-    NSMutableArray *failures = nil;
+    NSMutableArray *failures = [NSMutableArray array];
     
     for (NSObject *obj in collection) {
+        BOOL failed = NO;
+
         @try {
             [operation executeWithLeftValue:obj];
         }
         @catch (id exc) {
-            if (!failures)
-                failures = [NSMutableArray array];
-            [failures addObject:[NSString stringWithFormat:@"Test for index: %d failed: '%@'", index, exc]];
+            if (!expectFailure)
+                [failures addObject:[NSString stringWithFormat:@"Test for index: %d failed: '%@'", index, exc]];
+            failed = YES;
         }
+        if (expectFailure && !failed)
+            [failures addObject:[NSString stringWithFormat:@"Test for index: %d did not fail.", index]];
         ++index;
     }
     
-    if (failures) {
+    if ([failures count]) {
         [NSException raise:@"NSUnitException"
                     format:@"The following %d errors occurred:%@",
          [failures count],
          [failures componentsJoinedByString:@", "]];
     }
+}
+
++ (void) that:(NSObject<NSFastEnumeration> *) collection areAll:(NSObject<OperationProtocol> *) operation
+{
+    [self evaluateOp:operation onAllInCollection:collection expectFailure:NO];
+}
+
++ (void) that:(NSObject<NSFastEnumeration> *) collection areAllNot:(NSObject<OperationProtocol> *) operation
+{
+    [self evaluateOp:operation onAllInCollection:collection expectFailure:YES];
 }
 
 + (void) thatInt:(int) lvalue is:(NSObject<OperationProtocol> *) op

@@ -45,6 +45,20 @@
     [Assert that:the_set areAll:[Equal to:@"one"]];
 }
 
+- (void) test_AssertThatAreAllNot_ArrayWithMultipleElementsThatDoNotMatchRValue_doesNotFail
+{
+    NSArray *the_array = [NSArray arrayWithObjects:@"A", @"B", @"C", @"D", nil];
+    
+    [Assert that:the_array areAllNot:[Equal to:@"E"]];
+}
+
+- (void) test_AssertThatAreAllNot_SetWithMultipleElementsThatDoNotMatchRValue_doesNotFail
+{
+    NSSet *the_set = [NSSet setWithObjects:@"F", @"G", @"H", @"I", nil];
+    
+    [Assert that:the_set areAllNot:[Equal to:@"J"]];
+}
+
 - (void) test_AssertThatIsNil_OnNilObject_doesNotFail
 {
     NSString *the_obj = nil;
