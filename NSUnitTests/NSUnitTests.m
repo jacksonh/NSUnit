@@ -168,20 +168,6 @@
     [Assert that:the_string isNot:[AnEmpty string]];
 }
 
-- (void) test_AssertThatIntIs_IntsThatAreTheSame_doesNotFail
-{
-    int the_int = 10;
-    
-    [Assert thatInt:the_int is:[Equal to:@10]];
-}
-
-- (void) test_AssertThatIntIsNot_IntsThatAreNotTheSame_doesNotFail
-{
-    int the_int = 99;
-    
-    [Assert thatInt:the_int isNot:[Equal to:@10]];
-}
-
 - (void) test_AssertThatTheIntIs_IntsThatAreTheSame_doesNotFail
 {
     int i = 10;
@@ -210,6 +196,22 @@
     NSObject *right = [NSString stringWithFormat:@"hello"];
     
     [Assert that:left isNot:[TheSame as:right]];
+}
+
+- (void) test_AssertFails_ExceptionIsRaised_doesNotFail
+{
+    [Assert fails:^{
+        [NSException raise:@"TextException"
+                    format:@"I am the exception."];
+    }];
+}
+
+- (void) test_AssertFails_SubtestThatFails_doesNotFail
+{
+    [Assert fails:^{
+        [Assert that:@25 is:[Equal to:@15]];
+    }];
+
 }
 
 @end

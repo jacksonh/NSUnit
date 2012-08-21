@@ -34,11 +34,10 @@
 + (void) that:(NSObject *) lvalue is:(NSObject<OperationProtocol> *) op;
 + (void) that:(NSObject *) lvalue isNot:(NSObject<OperationProtocol> *) op;
 
-+ (void) thatInt:(int) lvalue is:(NSObject<OperationProtocol> *) op;
-+ (void) thatInt:(int) lvalue isNot:(NSObject<OperationProtocol> *) op;
-
 + (void) that:(NSObject<NSFastEnumeration> *) collection areAll:(NSObject<OperationProtocol> *) op;
 + (void) that:(NSObject<NSFastEnumeration> *) collection areAllNot:(NSObject<OperationProtocol> *) op;
+
++ (void) fails:(void (^)(void))expression;
 
 @end
 

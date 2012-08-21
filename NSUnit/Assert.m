@@ -90,18 +90,20 @@
     [self evaluateOp:operation onAllInCollection:collection expectFailure:YES];
 }
 
-+ (void) thatInt:(int) lvalue is:(NSObject<OperationProtocol> *) op
++ (void) fails:(void (^)(void))expression
 {
-    NSNumber *number = [NSNumber numberWithInt:lvalue];
+    BOOL failed = NO;
+    @try {
+        expression ();
+    }
+    @catch (id exc) {
+        failed = YES;
+    }
     
-    [self that:number is:op];
-}
-
-+ (void) thatInt:(int) lvalue isNot:(NSObject<OperationProtocol> *) op
-{
-    NSNumber *number = [NSNumber numberWithInt:lvalue];
-    
-    [self that:number isNot:op];
+    if (!failed) {
+        [NSException raise:@"NSUnitException"
+                    format:@"Expression did not fail."];
+    }
 }
 
 

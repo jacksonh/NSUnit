@@ -27,6 +27,16 @@ Some examples:
      [Assert that:[The double:d] is:[Less than:@10]];
 
 
+Ensuring Failure
+----------------
+
+NSUnit's Assert class provides a method for ensuring test failures. The fails:(void (^)(void)) method ensures that the supplied block raises an exception. For example
+
+    [Assert fails:^{
+        [WebService connectToUrl:nil];
+    }];
+
+
 Verbs
 -----
 
