@@ -181,4 +181,21 @@
     
     [Assert that:[The double:d] is:[Equal to:@10.0]];
 }
+
+- (void) test_AsserThatIsTheSame_TheSameLeftAndRightObject_doesNotFail
+{
+    NSObject *obj = @"hello";
+
+    [Assert that:obj is:[TheSame as:obj]];
+}
+
+- (void) test_AsserThatIsNotTheSame_TwoDifferentObjectsWithTheSameValue_doesNotFail
+{
+    // If we just use left = @"hello"; ... right = @"hello" they will be the same object
+    NSObject *left = [NSString stringWithFormat:@"hello"];
+    NSObject *right = [NSString stringWithFormat:@"hello"];
+    
+    [Assert that:left isNot:[TheSame as:right]];
+}
+
 @end

@@ -42,6 +42,8 @@ Conditions
 The following conditions are available:
 
     Equal to: - The subject equals the provided value.
+
+    TheSame as: - The subject is the exact same object as the provided value
     
     Less than: - The subject is less than the provided value. Both values must be non-nil numbers.
     Less thanOrEqual: - The subject is less than or equal to the provided value. Both values must be non-nil numbers.
