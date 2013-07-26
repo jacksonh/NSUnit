@@ -73,4 +73,4 @@ More examples can be found in NSUnit's [unit tests](https://github.com/jacksonh/
 Building
 --------
 
-NSUnit is built using the [iOS Univeral Framework](https://github.com/kstenerud/iOS-Universal-Framework)
+NSUnit is available on CocoaPods
